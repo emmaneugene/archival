@@ -1,0 +1,8 @@
+# Environment files with credentials
+.env
+
+# Session files (contain authentication data)
+sessions/
+
+# Exported messages
+exports/
