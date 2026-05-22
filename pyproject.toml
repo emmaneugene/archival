@@ -1,0 +1,18 @@
+[project]
+name = "archival"
+version = "0.1.0"
+description = "A CLI tool for managing archival jobs and workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.12.0",
+    "rich>=13.0.0",
+    "telethon>=1.36.0",
+]
+
+[project.scripts]
+archival = "archival.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
